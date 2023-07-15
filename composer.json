@@ -1,0 +1,32 @@
+{
+  "name": "heorhiev/php-app-google-sheets",
+  "authors": [
+    {
+      "name": "Ruslan",
+      "email": ""
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2",
+    "heorhiev/php-app-toolkit": "dev-master",
+    "google/apiclient": "^2.15"
+  },
+  "require-dev": {
+    "ext-sqlite3": "*"
+  },
+  "extra": {
+    "bootstrap": "heorhiev\\php-app-google-sheets\\src\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\googleSheet\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/heorhiev/php-app-toolkit.git"
+    }
+  ]
+}
