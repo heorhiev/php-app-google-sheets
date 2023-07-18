@@ -10,7 +10,7 @@
   "require": {
     "php": ">=7.2",
     "heorhiev/php-app-toolkit": "dev-master",
-    "google/apiclient": "^2.15"
+    "google/apiclient": "^2.14"
   },
   "require-dev": {
     "ext-sqlite3": "*"
